@@ -1,0 +1,46 @@
+
+
+#body{
+    background-color: black;
+    color: white;
+    min-width: 100vw;
+    min-height:100vh;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+.navigation-bar{
+    height: 80px;
+    box-shadow: 0px 5px 20px linen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-of-albums{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.list-of-albums ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+li{
+    list-style-type: none;
+    margin: 10px;
+    background-color: #444444;
+    width: 100%;
+    text-align: center;
+}
